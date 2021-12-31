@@ -1,0 +1,23 @@
+{"intents": [
+    {"tag":  "greetings",
+    "patterns": [ "hello", "hey", "whats up", "what's up", "hi", "how you doing?", " greetings", "hi", "heyy"],
+    "responses": ["nothing much just chilling","Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?", "Hello Rahul","what can i do for you?", "how can I be of your service?", "how are you?"]
+},
+
+    {"tag":  "bye",
+    "patterns": [ "byee", "cya", "Have a nice day", "Bye! Come back again soon.","see ya", "i gtg now", "talk to you later", "byee", "i am leaving", "goodbye", "fine by then"],
+    "responses": ["ok byee", "See you!", "Have a nice day", "Bye! Come back again soon.","take care", "good bye", "please come back don't leave me", "i will miss you", "okay fine byee", "okay cool byee"]
+},
+
+    {"tag": "age",
+    "patterns": [ "how old are you?", "what's your age", "age?","which year were you born?"],
+    "responses": ["I am 21 years old", "i'm 21", "21"]
+},
+
+    {"tag": "noanswer",
+        "patterns": [],
+        "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+        }
+    
+
+]} 
